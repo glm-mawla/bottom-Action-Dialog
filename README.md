@@ -15,7 +15,7 @@ Call as like BottomSheetDialogFragment i.e
 
 JAVA:
 
-`
+```
 
 new BottomActionDialog.DialogBuilder()
                 .setTitle("Change your email")
@@ -40,10 +40,10 @@ new BottomActionDialog.DialogBuilder()
                 .build(context)
                 .showAsBottomSheet();
                 
-  `              
+  ```             
 KOTLIN:
 
-`
+```
 BottomActionDialog.DialogBuilder()
                 .setTitle("Change your email")
                 .setSubTitle("bla bla bla")
@@ -66,4 +66,4 @@ BottomActionDialog.DialogBuilder()
                 .build(this)
                 .showAsBottomSheet()
                 
-                `
+                ```
