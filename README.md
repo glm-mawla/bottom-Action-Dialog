@@ -13,11 +13,8 @@ Features:
 Call as like BottomSheetDialogFragment i.e
 
 Screen shots: 
-![image-1] 
-(https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png)
+<img width=“964” alt=“confirmation dialog” src=“https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png”>
 
-![image-2] 
-(https://github.com/glm-mawla/bottom-dialog/blob/master/conn_error.png)
 
 
 JAVA:
