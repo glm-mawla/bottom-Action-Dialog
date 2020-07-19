@@ -16,6 +16,10 @@ Screen shots:
 ![image-1] 
 (https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png)
 
+![image-2] 
+(https://github.com/glm-mawla/bottom-dialog/blob/master/conn_error.png)
+
+
 JAVA:
 
 ```
