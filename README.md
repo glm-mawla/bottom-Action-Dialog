@@ -17,7 +17,7 @@ Screen shots:
 <img 
 raw=true
 alt=“confirmation dialog” 
-src=“/confm_dialog.png”>
+src=“https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png”>
 
 
 
