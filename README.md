@@ -13,7 +13,11 @@ Features:
 Call as like BottomSheetDialogFragment i.e
 
 Screen shots: 
-<img width=“964” alt=“confirmation dialog” src=“https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png”>
+
+<img 
+raw=true
+alt=“confirmation dialog” 
+src=“/confm_dialog.png”>
 
 
 
