@@ -12,6 +12,9 @@ Features:
 # how to call
 Call as like BottomSheetDialogFragment i.e
 
+Screen shots: 
+![image-1] 
+(https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png)
 
 JAVA:
 
