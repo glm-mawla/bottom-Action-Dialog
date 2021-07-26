@@ -9,43 +9,14 @@ Features:
 - change name of positive/negative button 
 - individual call back for each button
 
-# how to call
-Call as like BottomSheetDialogFragment i.e
-
 Screen shots: 
 
 https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png
 
 
-
-JAVA:
-
-```
-
-new BottomActionDialog.DialogBuilder()
-                .setTitle("Change your email")
-                .setSubTitle("")
-                .setIsShowBanner(false)
-                .setCancelable(false)
-                .setPositiveButton(R.string.change, new BottomActionViewBottom.BottomDialogPositiveClickListener() {
-                            @Override
-                            public void onPositiveButtonClick(@org.jetbrains.annotations.Nullable Dialog dialog) {
-                                 if (dialog != null) dialog.dismiss();
-                                //TODO()
-                            }
-                        },
-                        R.color.green)
-                .setNegativeButton(R.string.cancel, new BottomActionViewBottom.BottomDialogNegativeClickListener() {
-                            @Override
-                            public void onNegativeButtonClick(@org.jetbrains.annotations.Nullable Dialog dialog) {
-                                if (dialog != null) dialog.dismiss();
-                            }
-                        },
-                        R.color.gray_lite)
-                .build(context)
-                .showAsBottomSheet();
-                
-  ```             
+# how to call
+Call as like BottomSheetDialogFragment i.e
+            
 KOTLIN:
 
 ```
@@ -71,4 +42,5 @@ BottomActionDialog.DialogBuilder()
                 .build(this)
                 .showAsBottomSheet()
                 
-                ```
+                
+```
