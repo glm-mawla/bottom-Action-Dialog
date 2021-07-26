@@ -14,9 +14,7 @@ Call as like BottomSheetDialogFragment i.e
 
 Screen shots: 
 
-<img 
-alt=“confirmation dialog” 
-src="https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png " >
+https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png
 
 
 
