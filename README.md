@@ -11,8 +11,7 @@ Features:
 
 Screen shots: 
 
-https://github.com/glm-mawla/bottom-dialog/blob/master/confm_dialog.png
-
+<img src="confm_dialog.png" height="400" alt="Screenshot1"/>
 
 # how to call
 Call as like BottomSheetDialogFragment i.e
