@@ -44,3 +44,47 @@ BottomActionDialog.DialogBuilder()
                 
                 
 ```
+
+- Customisable positive & negative button: 
+       
+```
+            fun setPositiveButton(
+                @StringRes ok: Int,
+                listener: BottomActionViewBottom.BottomDialogPositiveClickListener?,
+                @ColorRes color: Int = R.color.holo_green_dark
+             )
+
+             fun setNegativeButton(
+                @StringRes negative: Int,
+                listener: BottomActionViewBottom.BottomDialogNegativeClickListener?,
+                @ColorRes color: Int? = R.color.gray_lite
+            )
+```
+
+- On/OFF cancelable: 
+``` 
+            fun setCancelable(isCancelable: Boolean)
+            
+```
+       
+- others functions: 
+ 
+        fun setTitle(@StringRes title: Int)
+
+        fun setSubTitle(@StringRes subTitle: Int)
+
+        fun setTitle(title: String?)
+
+        fun setSubTitle(subTitle: String?)
+
+        fun setIsShowBanner(isShow: Boolean)
+
+        fun setRatingBar(listener: BottomActionViewBottom.BottomDialogRateSelectionListener)
+
+        fun hidePositiveButton() 
+
+        fun setCircularBanner(link: String?)
+
+        fun addCustomView(view: View)
+        
+        
