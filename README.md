@@ -12,6 +12,7 @@ Features:
 Screen shots: 
 
 <img src="confm_dialog.png" height="400" alt="Screenshot1"/>
+<img src="conn_error.png" height="400" />
 
 # how to call
 Call as like BottomSheetDialogFragment i.e
