@@ -48,43 +48,50 @@ BottomActionDialog.DialogBuilder()
 - Customisable positive & negative button: 
        
 ```
-            fun setPositiveButton(
-                @StringRes ok: Int,
-                listener: BottomActionViewBottom.BottomDialogPositiveClickListener?,
-                @ColorRes color: Int = R.color.holo_green_dark
-             )
-
-             fun setNegativeButton(
-                @StringRes negative: Int,
-                listener: BottomActionViewBottom.BottomDialogNegativeClickListener?,
-                @ColorRes color: Int? = R.color.gray_lite
-            )
+            .setPositiveButton(R.string.set_pin,
+                        object : BottomActionViewBottom.BottomDialogPositiveClickListener {
+                            override fun onPositiveButtonClick(dialog: Dialog?) {
+                                    dialog?.dismiss()
+                            }
+                        },
+                        R.color.green
+                        )
+                .setNegativeButton(R.string.cancel, 
+                        object : BottomActionViewBottom.BottomDialogNegativeClickListener {
+                            override fun onNegativeButtonClick(dialog: Dialog?) {
+                                    dialog?.dismiss()
+                            }
+                        },
+                        R.color.gray_lite
+                        )
 ```
 
 - On/OFF cancelable: 
 ``` 
-            fun setCancelable(isCancelable: Boolean)
+            .setCancelable(true/false)
             
 ```
        
 - others functions: 
  
-        fun setTitle(@StringRes title: Int)
+        .setTitle()
 
-        fun setSubTitle(@StringRes subTitle: Int)
+        .setSubTitle(@StringRes)
 
-        fun setTitle(title: String?)
+        .setTitle(String?)
 
-        fun setSubTitle(subTitle: String?)
+        .setSubTitle(String?)
 
-        fun setIsShowBanner(isShow: Boolean)
+        .setIsShowBanner(Boolean)
 
-        fun setRatingBar(listener: BottomActionViewBottom.BottomDialogRateSelectionListener)
+        .setRatingBar(listener: BottomActionViewBottom.BottomDialogRateSelectionListener)
 
-        fun hidePositiveButton() 
+        .hidePositiveButton() 
 
-        fun setCircularBanner(link: String?)
+        .setCircularBanner(link: String?)
 
-        fun addCustomView(view: View)
+- Add custom View: 
+
+        .addCustomView(view: View)
         
         
