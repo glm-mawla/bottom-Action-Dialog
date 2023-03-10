@@ -25,7 +25,7 @@ BottomActionDialog.DialogBuilder()
                 .setSubTitle("bla bla bla")
                 .setIsShowBanner(false)
                 .setCancelable(false)
-                .setPositiveButton(if (isForVerify) R.string.verify_pin else R.string.set_pin,
+                .setPositiveButton(R.string.set_pin,
                         object : BottomActionViewBottom.BottomDialogPositiveClickListener {
                             override fun onPositiveButtonClick(dialog: Dialog?) {
                                     dialog?.dismiss()
@@ -33,11 +33,12 @@ BottomActionDialog.DialogBuilder()
                             }
                         },
                         R.color.green)
-                .setNegativeButton(R.string.cancel, object : BottomActionViewBottom.BottomDialogNegativeClickListener {
-                    override fun onNegativeButtonClick(dialog: Dialog?) {
-                        dialog?.dismiss()
-                    }
-                },
+                .setNegativeButton(R.string.cancel, 
+                        object : BottomActionViewBottom.BottomDialogNegativeClickListener {
+                             override fun onNegativeButtonClick(dialog: Dialog?) {
+                                    dialog?.dismiss()
+                             }
+                        },
                         R.color.gray_lite)
                 .build(this)
                 .showAsBottomSheet()
