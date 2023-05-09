@@ -9,6 +9,10 @@ Features:
 - change name of positive/negative button 
 - individual call back for each button
 
+dependencies {
+            implementation 'com.github.glm-mawla:bottom-Action-Dialog:1.0.0'
+	}
+
 Screen shots: 
 
 <img src="confm_dialog.png" height="400" alt="Screenshot1"/>
