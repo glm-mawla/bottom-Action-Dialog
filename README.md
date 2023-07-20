@@ -11,7 +11,7 @@ Features:
 
 # Add Dependency:
       dependencies {
-            implementation 'com.github.glm-mawla:bottom-Action-Dialog:1.0.0'
+            implementation 'com.github.glm-mawla:bottom-Action-Dialog:#version'
 	}
 
 Screen shots: 
