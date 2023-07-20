@@ -9,7 +9,7 @@ Features:
 - change name of positive/negative button 
 - individual call back for each button
 
-- Add Dependency:
+# Add Dependency:
       dependencies {
             implementation 'com.github.glm-mawla:bottom-Action-Dialog:1.0.0'
 	}
