@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">Okay</string>
+    <string name="dialog_title">Are you want to do this?</string>
+    <string name="cancel">Cancel</string>
+</resources>

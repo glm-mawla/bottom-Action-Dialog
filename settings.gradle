@@ -1,0 +1,4 @@
+rootProject.name = "Digital Lending Vendor"
+//include ':app'
+include ':action_bottom-dialog'
+include ':demo'
